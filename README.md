@@ -171,7 +171,7 @@ So yeah, my views definitely changed. Mobile computing is about bringing intelli
 ---
 
 ## GitHub Repository
-[Your GitHub Repository Link Here]
+https://github.com/rputtamr/healthmonitor
 
 ## Demo Video
 [Your YouTube Video Link Here]
