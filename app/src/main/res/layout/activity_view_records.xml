@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Title bar for the recorded data screen -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recorded Data"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Message shown when no records are available -->
+    <TextView
+        android:id="@+id/tvNoData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No records found"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:visibility="gone"/>
+
+    <!-- RecyclerView to list all recorded health data -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRecords"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"/>
+
+</LinearLayout>
+
+    <!--
+     Generative AI Used: ChatGPT (OpenAI, Sept 30, 2025)
+     Purpose: Suggested improvements in layout clarity, padding, and visual hierarchy;
+              helped in thinking through the user experience when no data is available.
+     Prompt: "I want my Recorded Data screen to clearly show when there are no records
+             and make the RecyclerView display nicely. Any minor suggestions?"
+    -->

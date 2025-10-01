@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Screen title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Measurement"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Heart Rate Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heart Rate"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvHeartRateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-- bpm"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnMeasureHeart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Measure Heart Rate"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Respiratory Rate Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respiratory Rate"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvRespRateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-- bpm"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnMeasureResp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Measure Respiratory Rate"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Next button to go to symptom recording -->
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next: Record Symptoms"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
+

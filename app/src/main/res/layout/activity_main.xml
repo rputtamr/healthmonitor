@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Main title of the app -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health Monitor"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp"/>
+
+    <!-- Button to record health data -->
+    <Button
+        android:id="@+id/btnRecordHealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Record Health Data"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button to view recorded data -->
+    <Button
+        android:id="@+id/btnViewRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Recorded Data"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4CAF50"/>
+
+    <!-- Button to delete all recorded data -->
+    <Button
+        android:id="@+id/btnDeleteAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete All Recorded Data"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:backgroundTint="#D32F2F"/>
+
+</LinearLayout>
+
+    <!--
+     Generative AI Used: ChatGPT (OpenAI, Sept 30, 2025)
+     Purpose: Provided guidance and suggestions for improving layout clarity, margins,
+              and color usage; helped with critical thinking on UI design choices.
+     Prompt: "I want my Health Monitor buttons to be visually distinct and user-friendly
+             without rewriting the whole layout. Can you suggest improvements?"
+    -->
