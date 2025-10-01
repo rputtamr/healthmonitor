@@ -174,7 +174,10 @@ So yeah, my views definitely changed. Mobile computing is about bringing intelli
 https://github.com/rputtamr/healthmonitor
 
 ## Demo Video
-[Your YouTube Video Link Here]
+https://youtu.be/V8cX1tMyMDU
+https://youtu.be/P9A5wGHPD6U 
+https://youtu.be/zl19H6BM4wc 
+
 
 ## Dependencies
 - Android API 29 or greater
